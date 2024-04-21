@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.offer{
+    background-color: orange;
+    color:white;
+    height: 2vw;
+    width: 100vw;
+    text-align: center; 
+    animation: hover;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 0px 0 0;
+    font-size: medium;
+}
+.offer:hover{
+    background-color: black;
+}
+.nav{
+    height: 7vh;
+    width: 100vw;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+.logo{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    right: 120px;
+    bottom: 5px;
+    animation: hover;
+}
+.logo:hover{
+    color: orange;
+}
+.nav .list ul{
+display: flex;
+column-gap: 30px;
+position: relative;
+right: 70px;
+top: 8px;
+font-weight: lighter;
+opacity: 70%;
+flex-wrap: wrap;
+}
+.nav .list ul li:hover{
+text-decoration: underline;
+transition: text-decoration 1s ease;
+}
+.nav .list ul li{
+list-style-type: none;
+animation: hover;
+transition: text-decoration 1s ease;
+}
+hr{
+    width: 90%;
+    position: relative;
+    left:5%;
+    opacity: 20%;
+    z-index: 2;
+}
+.icon{
+    display: flex;
+    column-gap: 30px;
+    position: relative;
+    top:8px;
+    left:5px;
+    flex-wrap: wrap;
+}
+.first .new img{
+    width: 70vw;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.gift{
+    background-color: rgb(219, 229, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3.5vh;
+    text-align: center;
+    border-radius: 5px;
+    width: 5vw;
+    padding: 0.5vw 0;
+    z-index: 10;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.first .right ul{
+    padding: 5vw 5vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    position: relative;
+    top: 10vh;
+
+}
+.diff{
+    background-color: white;
+    height: 10vh;
+    width: 90vw;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 650px;
+   padding: 7vh 0 0 10vw;
+   text-align: center;
+   font-family:fantasy;
+}
+.products{
+    width: 99.9%;
+    padding: 0 0 4vh 0;
+}
+.products ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    /* padding: 2vw 0; */
+    list-style-type: none;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .products ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Align items to the center */
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add margin between items */
+  }
+
+  .products ul li .des3 img {
+     width: 90px;
+     height: 50px;
+     object-fit: contain;
+  }
+  
+  .products ul li img {
+    height: 65vh;
+    width: 20vw;
+    object-fit: cover; /* Use cover for image */
+  }
+  .products ul li .des {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .products ul li .des2 {
+    color: gray;
+    font-size: small;
+    padding: 0 10px;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+  }
+  
+  .products ul li .prices {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+  }
+  
+  .products ul li .price2 {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  .cart {
+    padding: 10px 20px; /* Add padding */
+    background-color: #fff; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer;
+  }
+  
+  .cart:hover {
+    background-color: #f0f0f0; /* Hover background color */
+  }
+  
+
+  
+.button2{
+    position: relative;
+    left: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 20vw;
+    /* background-color: aqua; */
+    border: 2px solid grey;
+    font-family: "Quicksand", sans-serif;
+}
+.category{
+    background-color: white;
+    height: 10vh;
+    width: 90vw;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 650px;
+   padding: 7vh 0 0 10vw;
+   text-align: center;
+   font-family:fantasy;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0 2vh;
+}
+.categories img{
+    width: 20vw;
+    height: 15vw;
+    object-fit: fit;
+}
+.skin, .hair, .bath, .lip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25vw;
+}
+.one, .two, .three, .four{
+    padding: 1vw 0;
+    font-size: medium;
+    font-family: fantasy;
+}
+.concern{
+    background-color: white;
+    height: 10vh;
+    width: 90vw;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 650px;
+   padding: 7vh 0 0 10vw;
+   text-align: center;
+   font-family:fantasy;
+}
+.concerns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0 2vh;
+}
+.concerns img{
+    width: 20vw;
+    height: 15vw;
+    object-fit: fit;
+}
+.tone, .acne, .oil, .line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25vw;
+}
+.five, .six, .seven, .eight{
+    padding: 1vw 0;
+    font-size: medium;
+    font-family: fantasy;
+}
+.launch{
+    background-color: white;
+    height: 10vh;
+    width: 90vw;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 650px;
+   padding: 7vh 0 4vh 10vw;
+   text-align: center;
+   font-family:fantasy;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    height: 6vh;
+    width: 100vw;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 0 6vh 0;
+    row-gap: 1vw;
+}
+.div .below{
+    font-family: fantasy;
+}
+.div .welcome{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+}
+.things{
+    /* background-color: yellow; */
+    /* padding: 1vw 0 0 0; */
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vh;
+    padding: 10vh 0 0 0;
+}
+.things img{
+    width: 10vw;
+    height: 10vh;
+    object-fit: contain;
+    margin-bottom: 10px;
+    aspect-ratio: 3/2;
+}
+/* .div .things .trans{
+    display: inline-block;
+} */
+p{
+    width: 300px;
+    color: grey;
+    text-align: center;
+}
+.trans, .eff, .aff, .best{
+    text-align: center;
+}
+.div1, .div3, .div5, .div7{
+    padding: 0 0 0.5vw 0;
+}
+.says{
+    text-transform: capitalize;
+    background-color: white;
+    height: 10vh;
+    width: 90vw;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 650px;
+   padding: 15vh 0 0 10vw;
+   text-align: center;
+   font-family:fantasy;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 10vh;
+    width: 100%;
+}
+footer p{
+    color: white;
+    position: relative;
+    top: 3.5vh;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+    font-family: "Caveat", cursive;
+    height: 50vh;
+    justify-content: space-around;
+}
+.end ul{
+    list-style: none;
+}
+.end .about p{
+    text-align: left;
+    padding: 0 0 15px 0;
+    color: white;
+}
+.end .about ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7vw;
+    color: rgba(255, 255, 255, 0.748);
+}
+.end .quick p{
+    text-align: left;
+    padding: 0 0 15px 0;
+    color: white;
+}
+.end .quick ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7vw;
+    color: rgba(255, 255, 255, 0.748);
+}
+.end .contact span{
+    text-align: left;
+    color: white;
+    position: relative;
+    bottom: 46px;
+}
+.end .contact p{
+    text-align: left;
+    position: relative;
+    padding: 0 0 15px 0;
+    color: rgba(255, 255, 255, 0.748);
+    bottom: 20px;
+}
+.end .contact ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    bottom: 10px;
+}
+.end .contact ul li img{
+object-fit: contain;
+width: 25px;
+padding: 0 4px;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-around;
+    padding: 5vw 5vh;
+}
+.review1, .review2, .review3{
+    border: 1px solid rgba(128, 128, 128, 0.433);
+    border-radius: 4%;
+    padding: 3vw 3vh;
+}
+.review ul{
+    list-style: none;
+    
+}
+.review1 ul li{
+margin: 10px 0;
+font-family: fantasy;
+}
+
+.review ul img{
+    height: 5vh;
+    width: 15vh;
+    object-fit: contain;
+}
+.review2 ul li{
+    margin: 10px 0;
+    font-family: fantasy;
+    }
+    .review3 ul li{
+        margin: 10px 0;
+        font-family: fantasy;
+        }
+.recom{
+    display: flex;
+    /* column-gap: px; */
+    position: relative;
+    top: 5vh;
+    right: 2vw;
+}
+.recom p{
+text-align: left;
+font-size: small;
+position: relative;
+right: 15px;
+top: 11px;
+}
+.recom img{
+    width: 5vw;
+    height: 5vh;
+    object-fit: contain;
+}
+.me{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.me1{
+    position: relative;
+    left: 4vw;
+}
+.me2{
+    position: relative;
+    right: 4vw;
+}
+.me1, .me2{
+    border: 1px solid rgba(128, 128, 128, 0.525);
+}
+.me img{
+    width: 40vw;
+    height: 90vh;
+}
+.tag{
+    background-color: white;
+    height: 10vh;
+    width: 90vw;
+    font-size: large;
+    position: relative;
+    right: 650px;
+   padding: 7vh 0 0 10vw;
+   text-align: center;
+   font-family:fantasy;
+   color: grey;
+}
+.tagend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 3vh 3vw 3vh;
+}
+.tagend img{
+    width: 80vw;
+    height: 20vh;
+}
